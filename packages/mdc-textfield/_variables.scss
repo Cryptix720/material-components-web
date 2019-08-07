@@ -52,12 +52,13 @@ $mdc-textarea-disabled-border-color: rgba(mdc-theme-prop-value(on-surface), .26)
 // will make text unreadable
 $mdc-textarea-disabled-background: rgba(249, 249, 249, 1) !default;
 
+$mdc-text-field-outlined-stroke-width: 2px !default;
 $mdc-text-field-height: 56px !default;
-$mdc-text-field-label-position-y: 50% !default;
+$mdc-text-field-label-position-y: 106% !default;
 $mdc-text-field-label-offset: 16px !default;
 $mdc-text-field-dense-label-position-y: 70% !default;
 $mdc-text-field-dense-label-scale: .8 !default;
-$mdc-text-field-outlined-label-position-y: 130% !default;
+$mdc-text-field-outlined-label-position-y: $mdc-text-field-height / 2 !default;
 $mdc-text-field-outlined-dense-label-position-y: 120% !default;
 $mdc-text-field-outlined-with-leading-icon-label-position-x: 0 !default;
 $mdc-text-field-outlined-dense-with-leading-icon-label-position-x: 21px !default;
